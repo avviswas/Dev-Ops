@@ -1,0 +1,26 @@
+#!/bin/bash 
+
+echo "Menu driven program"
+
+x=0
+while [ $x = 0]
+do
+
+clear
+
+echo "Do you want to install apache? (y/n)"
+read answer
+
+case "$answer" in
+y)
+echo "You said yes"
+x = 1;;
+n)
+echo "Exiting in 3 seconds..."
+x=1);;
+*)
+echo "Not a valid selection"
+sleep 3;;
+esac
+done
+

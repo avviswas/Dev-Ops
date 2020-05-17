@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#install mysql
+
+sudo apt-get install mysql-server
+sudo service mysql start
+service mysql status
+
+exit
